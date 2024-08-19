@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=GraphEdge
+comment1.params=u\ v\ type\ label
+comment1.target=GraphEdge(GraphNode,\ GraphNode,\ int,\ java.lang.String)
+comment2.params=
+comment2.target=GraphNode\ firstEndpoint()
+comment3.params=
+comment3.target=GraphNode\ secondEndpoint()
+comment4.params=
+comment4.target=int\ getType()
+comment5.params=newType
+comment5.target=void\ setType(int)
+comment6.params=
+comment6.target=java.lang.String\ getLabel()
+comment7.params=newLabel
+comment7.target=void\ setLabel(java.lang.String)
+numComments=8

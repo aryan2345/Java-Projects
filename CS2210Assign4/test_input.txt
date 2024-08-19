@@ -1,0 +1,13 @@
+apple
+- definition of apple
+orange
++ music file for orange.mp3
+hello
+/ French translation for hello
+cat
+.jpg image file for cat
+dog
+.gif animated image file for dog
+website
+.html URL for the website
+exit

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=PosPlay
+comment0.text=This\ class\ represents\ a\ possible\ play\ and\ its\ associated\ score
+comment1.params=v\ r\ c
+comment1.target=PosPlay(int,\ int,\ int)
+comment1.text=play's\ score
+comment2.params=
+comment2.target=int\ getRow()
+comment3.params=
+comment3.target=int\ getCol()
+comment4.params=
+comment4.target=int\ getScore()
+numComments=5

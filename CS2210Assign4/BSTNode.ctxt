@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=BSTNode
+comment1.params=item
+comment1.target=BSTNode(Record)
+comment10.params=
+comment10.target=boolean\ isLeaf()
+comment2.params=
+comment2.target=Record\ getRecord()
+comment3.params=d
+comment3.target=void\ setRecord(Record)
+comment4.params=
+comment4.target=BSTNode\ getLeftChild()
+comment5.params=
+comment5.target=BSTNode\ getRightChild()
+comment6.params=
+comment6.target=BSTNode\ getParent()
+comment7.params=u
+comment7.target=void\ setLeftChild(BSTNode)
+comment8.params=u
+comment8.target=void\ setRightChild(BSTNode)
+comment9.params=u
+comment9.target=void\ setParent(BSTNode)
+numComments=11

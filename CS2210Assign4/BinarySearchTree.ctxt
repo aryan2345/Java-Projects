@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=BinarySearchTree
+comment1.params=
+comment1.target=BinarySearchTree()
+comment10.params=r
+comment10.target=BSTNode\ smallest(BSTNode)
+comment11.params=r
+comment11.target=BSTNode\ largest(BSTNode)
+comment2.params=
+comment2.target=BSTNode\ getRoot()
+comment3.params=r\ k
+comment3.target=BSTNode\ get(BSTNode,\ Key)
+comment4.params=r\ d
+comment4.target=void\ insert(BSTNode,\ Record)
+comment5.params=root\ d
+comment5.target=BSTNode\ insertRec(BSTNode,\ Record)
+comment6.params=r\ k
+comment6.target=void\ remove(BSTNode,\ Key)
+comment7.params=root\ k
+comment7.target=BSTNode\ removeRec(BSTNode,\ Key)
+comment8.params=r\ k
+comment8.target=BSTNode\ successor(BSTNode,\ Key)
+comment9.params=r\ k
+comment9.target=BSTNode\ predecessor(BSTNode,\ Key)
+numComments=12

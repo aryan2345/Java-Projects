@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Data
+comment1.params=config\ score
+comment1.target=Data(java.lang.String,\ int)
+comment2.params=
+comment2.target=int\ getScore()
+comment3.params=
+comment3.target=java.lang.String\ getConfiguration()
+numComments=4

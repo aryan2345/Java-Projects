@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Configurations
+comment1.params=board_size\ lengthToWin\ max_levels
+comment1.target=Configurations(int,\ int,\ int)
+comment2.params=
+comment2.target=HashDictionary\ createDictionary()
+comment3.params=hashTable
+comment3.target=int\ repeatedConfiguration(HashDictionary)
+comment4.params=hashDictionary\ score
+comment4.target=void\ addConfiguration(HashDictionary,\ int)
+comment5.params=row\ col\ symbol
+comment5.target=void\ savePlay(int,\ int,\ char)
+comment6.params=row\ col
+comment6.target=boolean\ squareIsEmpty(int,\ int)
+comment7.params=
+comment7.target=boolean\ isDraw()
+comment8.params=
+comment8.target=int\ evalBoard()
+comment9.params=symbol
+comment9.target=boolean\ wins(char)
+numComments=10

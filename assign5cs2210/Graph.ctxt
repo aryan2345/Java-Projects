@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Graph
+comment1.params=n
+comment1.target=Graph(int)
+comment2.params=u\ v\ edgeType\ label
+comment2.target=void\ insertEdge(GraphNode,\ GraphNode,\ int,\ java.lang.String)
+comment3.params=name
+comment3.target=GraphNode\ getNode(int)
+comment4.params=u
+comment4.target=java.util.Iterator\ incidentEdges(GraphNode)
+comment5.params=u\ v
+comment5.target=GraphEdge\ getEdge(GraphNode,\ GraphNode)
+comment6.params=u\ v
+comment6.target=boolean\ areAdjacent(GraphNode,\ GraphNode)
+numComments=7

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Play
+comment1.params=size\ to_win\ depth
+comment1.target=Play(int,\ int,\ int)
+comment1.text=\ Constructor.\ Creates\ a\ panel\ to\ represent\ the\ game\ board\ and\ destroys\nthe\ panel\ when\ its\ window\ is\ closed.
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment2.text=\ To\ run\ the\ program\ type\:\ java\ Play\ size\ length\ depth\ where\ \n\ \ \ \ \ \ \ size\ is\ the\ size\ of\ the\ board,\ length\ is\ the\ length\ of\ the\ X-shape\ of\ +shape\n\ \ \ \ \ \ \ needed\ to\ win\ the\ game,\ and\ depth\ is\ the\ number\ of\ levels\ of\ the\ game\ tree\nto\ be\ explored.
+comment3.params=event
+comment3.target=void\ windowClosing(java.awt.event.WindowEvent)
+numComments=4

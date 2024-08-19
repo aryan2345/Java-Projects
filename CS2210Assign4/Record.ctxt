@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Record
+comment1.params=k\ theData
+comment1.target=Record(Key,\ java.lang.String)
+comment2.params=
+comment2.target=Key\ getKey()
+comment3.params=
+comment3.target=java.lang.String\ getDataItem()
+numComments=4

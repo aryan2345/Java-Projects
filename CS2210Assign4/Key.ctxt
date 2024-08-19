@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Key
+comment1.params=label\ type
+comment1.target=Key(java.lang.String,\ int)
+comment2.params=
+comment2.target=java.lang.String\ getLabel()
+comment3.params=
+comment3.target=int\ getType()
+comment4.params=k
+comment4.target=int\ compareTo(Key)
+numComments=5

@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Maze
+comment1.params=inputFile
+comment1.target=Maze(java.lang.String)
+comment2.params=
+comment2.target=Graph\ getGraph()
+comment3.params=
+comment3.target=java.util.Iterator\ solve()
+comment3.text=\n\ \ \ public\ Iterator<GraphNode>\ solve()\ throws\ GraphException\ {\n\ \ \ \ Stack<GraphNode>\ stack\ \=\ new\ Stack<>();\n\n\ \ \ \ dfs(entrance,\ exit,\ stack,\ coins);\n\n\ \ \ \ if\ (\!stack.isEmpty())\ {\n\ \ \ \ \ \ \ \ return\ stack.iterator();\n\ \ \ \ }\ else\ {\n\ \ \ \ \ \ \ \ return\ null;\n\ \ \ \ }\n}\n\n\ \ \ \ private\ boolean\ dfs(GraphNode\ currentNode,\ GraphNode\ exitNode,\ Stack<GraphNode>\ stack,\ int\ availableCoins)\ throws\ GraphException\ {\n\ \ \ \ stack.push(currentNode);\n\ \ \ \ currentNode.mark(true);\ \ //\ Mark\ the\ current\ node\ as\ visited\n\n\ \ \ \ //\ Check\ if\ the\ current\ node\ is\ the\ exit\ node\n\ \ \ \ if\ (currentNode\ \=\=\ exitNode)\ \n\ \ \ \ {\n\ \ \ \ \ \ \ \ return\ true;\ //\ Solution\ found\n\ \ \ \ }\n\ \ \ \ Iterator<GraphEdge>\ edgeIterator;\n\ \ \ \ edgeIterator\ \=\ null;\n\ \ \ \ try\n\ \ \ \ {\n\ \ \ \ \ \ \ \ edgeIterator\ \=\ graph.incidentEdges(currentNode);\n\ \ \ \ }\n\ \ \ \ catch(GraphException\ e)\ \n\ \ \ \ {\n\ \ \ \ \ \ \ \ e.printStackTrace();\n\ \ \ \ }\n\ \ \ \ while\ (edgeIterator\!\=null\ &&edgeIterator.hasNext())\ {\n\ \ \ \ \ \ \ \ GraphEdge\ edge\ \=\ edgeIterator.next();\n\ \ \ \ \ \ \ \ GraphNode\ nextNode\ \=\ edge.secondEndpoint();\n\n\ \ \ \ \ \ \ \ if\ ((\!edge.firstEndpoint().isMarked()\ ||\!nextNode.isMarked())\ &&\ edge.getType()\ <\=\ availableCoins)\ {\n\ \ \ \ \ \ \ \ \ \ \ \ //\ Merge\ the\ functionality\ of\ canTraverse\ into\ the\ condition\n\ \ \ \ \ \ \ \ \ \ \ \ int\ coinsUsed\ \=\ edge.getType();\n\n\ \ \ \ \ \ \ \ \ \ \ \ //\ Recursive\ call\ with\ updated\ available\ coins\n\ \ \ \ \ \ \ \ \ \ \ \ if\ (dfs(nextNode,\ exitNode,\ stack,\ availableCoins\ -\ coinsUsed))\ {\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ return\ true;\ \ //\ Solution\ found,\ no\ need\ to\ explore\ further\n\ \ \ \ \ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ \ \ \ \ //\ No\ solution\ found\ from\ this\ path,\ backtrack\n\ \ \ \ \ \ \ \ \ \ \ \ availableCoins\ \=\ availableCoins\ +\ coinsUsed;\n\ \ \ \ \ \ \ \ \ \ \ \ \n\ \ \ \ \ \ \ \ }\n\ \ \ \ }\n\n\ \ \ \ \n\ \ \ \ stack.pop();\ \ //\ Remove\ from\ the\ stack\n\n\ \ \ \ return\ false;\n}\n
+comment4.params=current\ destination\ coins\ stack
+comment4.target=boolean\ dfs(GraphNode,\ GraphNode,\ int,\ java.util.Stack)
+numComments=5

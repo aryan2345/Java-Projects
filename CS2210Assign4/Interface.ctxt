@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Interface
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=label\ typeAndData
+comment2.target=Record\ createRecord(java.lang.String,\ java.lang.String)
+comment3.params=command\ dictionary\ labelsList
+comment3.target=void\ command(java.lang.String,\ BSTDictionary,\ java.util.List)
+numComments=4

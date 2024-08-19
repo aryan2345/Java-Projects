@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=DictionaryADT
+comment0.text=Description\ of\ these\ methods\ is\ given\ in\ the\ assignment
+comment1.params=pair
+comment1.target=int\ put(Data)
+comment2.params=config
+comment2.target=void\ remove(java.lang.String)
+comment3.params=config
+comment3.target=int\ get(java.lang.String)
+comment4.params=
+comment4.target=int\ numRecords()
+numComments=5

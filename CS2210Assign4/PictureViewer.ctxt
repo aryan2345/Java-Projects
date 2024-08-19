@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=PictureViewer
+comment0.text=\n\ \ This\ class\ includes\ methods\ for\ displaying\ the\ image\ in\ a\ window\ on\n\ \ the\ screen\n
+comment1.params=
+comment1.target=PictureViewer()
+comment1.text=\n\ Constructor.\n
+comment2.params=fileName
+comment2.target=void\ show(java.lang.String)
+comment2.text=\n\ Display\ the\ picture\ in\ a\ window\ on\ the\ screen.\n
+numComments=3

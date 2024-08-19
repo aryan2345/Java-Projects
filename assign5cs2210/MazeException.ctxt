@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=MazeException
+comment1.params=mssg
+comment1.target=MazeException(java.lang.String)
+numComments=2

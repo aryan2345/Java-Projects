@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=BSTDictionaryADT
+comment1.params=d
+comment1.target=void\ put(java.lang.Record)
+comment1.text=\ Inserts\ the\ Record\ d\ into\ the\ ordered\ dictionary.\ It\ throws\ a\ DictionaryException\ \nif\ a\ Record\ with\ the\ same\ Key\ attribute\ as\ d\ is\ already\ in\ the\ dictionary.
+comment2.params=
+comment2.target=java.lang.Record\ smallest()
+comment2.text=\ Returns\ the\ Record\ with\ smallest\ key\ in\ the\ ordered\ dictionary.\ \nReturns\ null\ if\ the\ dictionary\ is\ empty.
+comment3.params=
+comment3.target=java.lang.Record\ largest()
+comment3.text=\ Returns\ the\ Record\ with\ largest\ key\ in\ the\ ordered\ dictionary.\ \nReturns\ null\ if\ the\ dictionary\ is\ empty.
+numComments=4

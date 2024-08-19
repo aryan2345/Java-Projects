@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=GraphNode
+comment1.params=name
+comment1.target=GraphNode(int)
+comment2.params=mark
+comment2.target=void\ mark(boolean)
+comment3.params=
+comment3.target=boolean\ isMarked()
+comment4.params=
+comment4.target=int\ getName()
+numComments=5
